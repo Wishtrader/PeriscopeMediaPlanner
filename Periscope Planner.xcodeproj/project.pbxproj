@@ -16,6 +16,8 @@
 		41EFB6BD27232D0F00795AC5 /* PeriscopeMediaPlannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EFB6BC27232D0F00795AC5 /* PeriscopeMediaPlannerTests.swift */; };
 		41EFB6C727232D0F00795AC5 /* PeriscopeMediaPlannerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EFB6C627232D0F00795AC5 /* PeriscopeMediaPlannerUITests.swift */; };
 		41EFB6C927232D0F00795AC5 /* PeriscopeMediaPlannerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EFB6C827232D0F00795AC5 /* PeriscopeMediaPlannerUITestsLaunchTests.swift */; };
+		41EFB6D827233D2800795AC5 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EFB6D727233D2800795AC5 /* SplashScreenView.swift */; };
+		41EFB6DA27233E2700795AC5 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EFB6D927233E2700795AC5 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,18 +38,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		41EFB6A327232D0D00795AC5 /* PeriscopeMediaPlanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PeriscopeMediaPlanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		41EFB6A327232D0D00795AC5 /* Periscope Planner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Periscope Planner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		41EFB6A627232D0D00795AC5 /* PeriscopeMediaPlannerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeriscopeMediaPlannerApp.swift; sourceTree = "<group>"; };
 		41EFB6A827232D0D00795AC5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		41EFB6AA27232D0E00795AC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		41EFB6AD27232D0E00795AC5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		41EFB6AF27232D0E00795AC5 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		41EFB6B227232D0F00795AC5 /* PeriscopeMediaPlanner.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PeriscopeMediaPlanner.xcdatamodel; sourceTree = "<group>"; };
-		41EFB6B827232D0F00795AC5 /* PeriscopeMediaPlannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PeriscopeMediaPlannerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		41EFB6B827232D0F00795AC5 /* Periscope PlannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Periscope PlannerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		41EFB6BC27232D0F00795AC5 /* PeriscopeMediaPlannerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeriscopeMediaPlannerTests.swift; sourceTree = "<group>"; };
-		41EFB6C227232D0F00795AC5 /* PeriscopeMediaPlannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PeriscopeMediaPlannerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		41EFB6C227232D0F00795AC5 /* Periscope PlannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Periscope PlannerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		41EFB6C627232D0F00795AC5 /* PeriscopeMediaPlannerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeriscopeMediaPlannerUITests.swift; sourceTree = "<group>"; };
 		41EFB6C827232D0F00795AC5 /* PeriscopeMediaPlannerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeriscopeMediaPlannerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		41EFB6D727233D2800795AC5 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		41EFB6D927233E2700795AC5 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,9 +92,9 @@
 		41EFB6A427232D0D00795AC5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				41EFB6A327232D0D00795AC5 /* PeriscopeMediaPlanner.app */,
-				41EFB6B827232D0F00795AC5 /* PeriscopeMediaPlannerTests.xctest */,
-				41EFB6C227232D0F00795AC5 /* PeriscopeMediaPlannerUITests.xctest */,
+				41EFB6A327232D0D00795AC5 /* Periscope Planner.app */,
+				41EFB6B827232D0F00795AC5 /* Periscope PlannerTests.xctest */,
+				41EFB6C227232D0F00795AC5 /* Periscope PlannerUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -98,6 +102,8 @@
 		41EFB6A527232D0D00795AC5 /* PeriscopeMediaPlanner */ = {
 			isa = PBXGroup;
 			children = (
+				41EFB6D627233D0B00795AC5 /* Model */,
+				41EFB6D527233D0300795AC5 /* View */,
 				41EFB6A627232D0D00795AC5 /* PeriscopeMediaPlannerApp.swift */,
 				41EFB6A827232D0D00795AC5 /* ContentView.swift */,
 				41EFB6AA27232D0E00795AC5 /* Assets.xcassets */,
@@ -133,12 +139,28 @@
 			path = PeriscopeMediaPlannerUITests;
 			sourceTree = "<group>";
 		};
+		41EFB6D527233D0300795AC5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				41EFB6D727233D2800795AC5 /* SplashScreenView.swift */,
+				41EFB6D927233E2700795AC5 /* HomeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		41EFB6D627233D0B00795AC5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		41EFB6A227232D0D00795AC5 /* PeriscopeMediaPlanner */ = {
+		41EFB6A227232D0D00795AC5 /* Periscope Planner */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 41EFB6CC27232D0F00795AC5 /* Build configuration list for PBXNativeTarget "PeriscopeMediaPlanner" */;
+			buildConfigurationList = 41EFB6CC27232D0F00795AC5 /* Build configuration list for PBXNativeTarget "Periscope Planner" */;
 			buildPhases = (
 				41EFB69F27232D0D00795AC5 /* Sources */,
 				41EFB6A027232D0D00795AC5 /* Frameworks */,
@@ -148,14 +170,14 @@
 			);
 			dependencies = (
 			);
-			name = PeriscopeMediaPlanner;
+			name = "Periscope Planner";
 			productName = PeriscopeMediaPlanner;
-			productReference = 41EFB6A327232D0D00795AC5 /* PeriscopeMediaPlanner.app */;
+			productReference = 41EFB6A327232D0D00795AC5 /* Periscope Planner.app */;
 			productType = "com.apple.product-type.application";
 		};
-		41EFB6B727232D0F00795AC5 /* PeriscopeMediaPlannerTests */ = {
+		41EFB6B727232D0F00795AC5 /* Periscope PlannerTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 41EFB6CF27232D0F00795AC5 /* Build configuration list for PBXNativeTarget "PeriscopeMediaPlannerTests" */;
+			buildConfigurationList = 41EFB6CF27232D0F00795AC5 /* Build configuration list for PBXNativeTarget "Periscope PlannerTests" */;
 			buildPhases = (
 				41EFB6B427232D0F00795AC5 /* Sources */,
 				41EFB6B527232D0F00795AC5 /* Frameworks */,
@@ -166,14 +188,14 @@
 			dependencies = (
 				41EFB6BA27232D0F00795AC5 /* PBXTargetDependency */,
 			);
-			name = PeriscopeMediaPlannerTests;
+			name = "Periscope PlannerTests";
 			productName = PeriscopeMediaPlannerTests;
-			productReference = 41EFB6B827232D0F00795AC5 /* PeriscopeMediaPlannerTests.xctest */;
+			productReference = 41EFB6B827232D0F00795AC5 /* Periscope PlannerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		41EFB6C127232D0F00795AC5 /* PeriscopeMediaPlannerUITests */ = {
+		41EFB6C127232D0F00795AC5 /* Periscope PlannerUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 41EFB6D227232D0F00795AC5 /* Build configuration list for PBXNativeTarget "PeriscopeMediaPlannerUITests" */;
+			buildConfigurationList = 41EFB6D227232D0F00795AC5 /* Build configuration list for PBXNativeTarget "Periscope PlannerUITests" */;
 			buildPhases = (
 				41EFB6BE27232D0F00795AC5 /* Sources */,
 				41EFB6BF27232D0F00795AC5 /* Frameworks */,
@@ -184,9 +206,9 @@
 			dependencies = (
 				41EFB6C427232D0F00795AC5 /* PBXTargetDependency */,
 			);
-			name = PeriscopeMediaPlannerUITests;
+			name = "Periscope PlannerUITests";
 			productName = PeriscopeMediaPlannerUITests;
-			productReference = 41EFB6C227232D0F00795AC5 /* PeriscopeMediaPlannerUITests.xctest */;
+			productReference = 41EFB6C227232D0F00795AC5 /* Periscope PlannerUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -212,7 +234,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 41EFB69E27232D0D00795AC5 /* Build configuration list for PBXProject "PeriscopeMediaPlanner" */;
+			buildConfigurationList = 41EFB69E27232D0D00795AC5 /* Build configuration list for PBXProject "Periscope Planner" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -225,9 +247,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				41EFB6A227232D0D00795AC5 /* PeriscopeMediaPlanner */,
-				41EFB6B727232D0F00795AC5 /* PeriscopeMediaPlannerTests */,
-				41EFB6C127232D0F00795AC5 /* PeriscopeMediaPlannerUITests */,
+				41EFB6A227232D0D00795AC5 /* Periscope Planner */,
+				41EFB6B727232D0F00795AC5 /* Periscope PlannerTests */,
+				41EFB6C127232D0F00795AC5 /* Periscope PlannerUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -265,6 +287,8 @@
 			files = (
 				41EFB6B327232D0F00795AC5 /* PeriscopeMediaPlanner.xcdatamodeld in Sources */,
 				41EFB6B027232D0E00795AC5 /* Persistence.swift in Sources */,
+				41EFB6D827233D2800795AC5 /* SplashScreenView.swift in Sources */,
+				41EFB6DA27233E2700795AC5 /* HomeView.swift in Sources */,
 				41EFB6A927232D0D00795AC5 /* ContentView.swift in Sources */,
 				41EFB6A727232D0D00795AC5 /* PeriscopeMediaPlannerApp.swift in Sources */,
 			);
@@ -292,12 +316,12 @@
 /* Begin PBXTargetDependency section */
 		41EFB6BA27232D0F00795AC5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 41EFB6A227232D0D00795AC5 /* PeriscopeMediaPlanner */;
+			target = 41EFB6A227232D0D00795AC5 /* Periscope Planner */;
 			targetProxy = 41EFB6B927232D0F00795AC5 /* PBXContainerItemProxy */;
 		};
 		41EFB6C427232D0F00795AC5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 41EFB6A227232D0D00795AC5 /* PeriscopeMediaPlanner */;
+			target = 41EFB6A227232D0D00795AC5 /* Periscope Planner */;
 			targetProxy = 41EFB6C327232D0F00795AC5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -435,14 +459,14 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.wishmaster.PeriscopeMediaPlanner;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Periscope Planner";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -465,14 +489,14 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.wishmaster.PeriscopeMediaPlanner;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Periscope Planner";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -500,7 +524,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PeriscopeMediaPlanner.app/PeriscopeMediaPlanner";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Periscope Planner.app/Periscope Planner";
 			};
 			name = Debug;
 		};
@@ -525,7 +549,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PeriscopeMediaPlanner.app/PeriscopeMediaPlanner";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Periscope Planner.app/Periscope Planner";
 			};
 			name = Release;
 		};
@@ -578,7 +602,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		41EFB69E27232D0D00795AC5 /* Build configuration list for PBXProject "PeriscopeMediaPlanner" */ = {
+		41EFB69E27232D0D00795AC5 /* Build configuration list for PBXProject "Periscope Planner" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				41EFB6CA27232D0F00795AC5 /* Debug */,
@@ -587,7 +611,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		41EFB6CC27232D0F00795AC5 /* Build configuration list for PBXNativeTarget "PeriscopeMediaPlanner" */ = {
+		41EFB6CC27232D0F00795AC5 /* Build configuration list for PBXNativeTarget "Periscope Planner" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				41EFB6CD27232D0F00795AC5 /* Debug */,
@@ -596,7 +620,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		41EFB6CF27232D0F00795AC5 /* Build configuration list for PBXNativeTarget "PeriscopeMediaPlannerTests" */ = {
+		41EFB6CF27232D0F00795AC5 /* Build configuration list for PBXNativeTarget "Periscope PlannerTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				41EFB6D027232D0F00795AC5 /* Debug */,
@@ -605,7 +629,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		41EFB6D227232D0F00795AC5 /* Build configuration list for PBXNativeTarget "PeriscopeMediaPlannerUITests" */ = {
+		41EFB6D227232D0F00795AC5 /* Build configuration list for PBXNativeTarget "Periscope PlannerUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				41EFB6D327232D0F00795AC5 /* Debug */,
