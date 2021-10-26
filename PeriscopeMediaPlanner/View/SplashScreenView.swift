@@ -3,7 +3,7 @@ import SwiftUI
 struct SplashScreenView: View {
     // MARK: - PROPERTIES
     
-    @State var startAnimation: Bool = false
+    @State var startAnimation: Bool = true
     
     // MARK: - Body
     var body: some View {
@@ -15,10 +15,12 @@ struct SplashScreenView: View {
                 SplashShape()
                     .trim(from: 0, to: startAnimation ? 1 : 0)
                     .stroke(Color.accentColor, style: StrokeStyle(lineWidth: 20, lineCap: .square, lineJoin: .round))
-                }
+                
                 TriangleMask()
                     .trim(from: 0, to: startAnimation ? 1 : 0)
                     .fill(Color.accentColor)
+                } //Group
+                
             
             VStack(alignment: .trailing) {
                 Text("Periscope Media")
@@ -26,14 +28,12 @@ struct SplashScreenView: View {
                     .textCase(.uppercase)
                     .font(.title.bold())
                     .opacity(startAnimation ? 1 : 0)
-                    .animation(.easeInOut)
 
                 Text("Personal Planner")
                     .foregroundColor(Color.white)
                     .textCase(.uppercase)
                     .font(.callout)
                     .opacity(startAnimation ? 1 : 0)
-                    .animation(.easeInOut)
                 } //VSTACK
             .frame(maxHeight: 290, alignment: .bottom)
 
