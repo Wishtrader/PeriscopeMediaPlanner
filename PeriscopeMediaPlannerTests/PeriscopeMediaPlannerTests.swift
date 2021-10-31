@@ -6,7 +6,7 @@
 //
 
 import XCTest
-@testable import PeriscopeMediaPlanner
+//@testable import PeriscopeMediaPlanner
 
 class PeriscopeMediaPlannerTests: XCTestCase {
 

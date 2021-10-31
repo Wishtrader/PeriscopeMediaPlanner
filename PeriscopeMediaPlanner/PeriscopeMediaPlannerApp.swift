@@ -1,10 +1,3 @@
-//
-//  PeriscopeMediaPlannerApp.swift
-//  PeriscopeMediaPlanner
-//
-//  Created by Andrei Kamarou on 22.10.21.
-//
-
 import SwiftUI
 
 @main

@@ -7,17 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A21726085EE3825185CE1F0 /* Pods_PeriscopeMediaPlannerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B10C0F34101FA125121F3E93 /* Pods_PeriscopeMediaPlannerTests.framework */; };
+		41566C92272D9D1E00FA8CD5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41566C91272D9D1E00FA8CD5 /* AppDelegate.swift */; };
+		415BD821272B4EBB0039AC39 /* PeriscopeMediaPlannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EFB6BC27232D0F00795AC5 /* PeriscopeMediaPlannerTests.swift */; };
+		41685359272DE9C000BE0F22 /* TaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41685358272DE9C000BE0F22 /* TaskView.swift */; };
+		4168535B272DFD1F00BE0F22 /* TaskModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4168535A272DFD1F00BE0F22 /* TaskModel.swift */; };
 		41EFB6A727232D0D00795AC5 /* PeriscopeMediaPlannerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EFB6A627232D0D00795AC5 /* PeriscopeMediaPlannerApp.swift */; };
 		41EFB6A927232D0D00795AC5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EFB6A827232D0D00795AC5 /* ContentView.swift */; };
 		41EFB6AB27232D0E00795AC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41EFB6AA27232D0E00795AC5 /* Assets.xcassets */; };
 		41EFB6AE27232D0E00795AC5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41EFB6AD27232D0E00795AC5 /* Preview Assets.xcassets */; };
 		41EFB6B027232D0E00795AC5 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EFB6AF27232D0E00795AC5 /* Persistence.swift */; };
 		41EFB6B327232D0F00795AC5 /* PeriscopeMediaPlanner.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 41EFB6B127232D0F00795AC5 /* PeriscopeMediaPlanner.xcdatamodeld */; };
-		41EFB6BD27232D0F00795AC5 /* PeriscopeMediaPlannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EFB6BC27232D0F00795AC5 /* PeriscopeMediaPlannerTests.swift */; };
 		41EFB6C727232D0F00795AC5 /* PeriscopeMediaPlannerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EFB6C627232D0F00795AC5 /* PeriscopeMediaPlannerUITests.swift */; };
 		41EFB6C927232D0F00795AC5 /* PeriscopeMediaPlannerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EFB6C827232D0F00795AC5 /* PeriscopeMediaPlannerUITestsLaunchTests.swift */; };
 		41EFB6D827233D2800795AC5 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EFB6D727233D2800795AC5 /* SplashScreenView.swift */; };
 		41EFB6DA27233E2700795AC5 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EFB6D927233E2700795AC5 /* HomeView.swift */; };
+		716A76007D8B4C89E10BA9FE /* Pods_PeriscopeMediaPlanner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F30CD5C4688FA0489EF5205E /* Pods_PeriscopeMediaPlanner.framework */; };
+		D39C50CC6126439EC8736A68 /* Pods_PeriscopeMediaPlanner_PeriscopeMediaPlannerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAD1A1A14360E2A6B96729B0 /* Pods_PeriscopeMediaPlanner_PeriscopeMediaPlannerUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +44,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1CADCBFF5510F741AB1C0892 /* Pods-PeriscopeMediaPlanner-PeriscopeMediaPlannerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PeriscopeMediaPlanner-PeriscopeMediaPlannerUITests.debug.xcconfig"; path = "Target Support Files/Pods-PeriscopeMediaPlanner-PeriscopeMediaPlannerUITests/Pods-PeriscopeMediaPlanner-PeriscopeMediaPlannerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2D37E0E69B8C299B01D3197D /* Pods-PeriscopeMediaPlanner-PeriscopeMediaPlannerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PeriscopeMediaPlanner-PeriscopeMediaPlannerUITests.release.xcconfig"; path = "Target Support Files/Pods-PeriscopeMediaPlanner-PeriscopeMediaPlannerUITests/Pods-PeriscopeMediaPlanner-PeriscopeMediaPlannerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4142A59B272C1B9900DD2627 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		41566C91272D9D1E00FA8CD5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		41685358272DE9C000BE0F22 /* TaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskView.swift; sourceTree = "<group>"; };
+		4168535A272DFD1F00BE0F22 /* TaskModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskModel.swift; sourceTree = "<group>"; };
+		41E0C177272D7EFA0008B407 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		41EFB6A327232D0D00795AC5 /* PeriscopeMediaPlanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PeriscopeMediaPlanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41EFB6A627232D0D00795AC5 /* PeriscopeMediaPlannerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeriscopeMediaPlannerApp.swift; sourceTree = "<group>"; };
 		41EFB6A827232D0D00795AC5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -52,6 +65,13 @@
 		41EFB6C827232D0F00795AC5 /* PeriscopeMediaPlannerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeriscopeMediaPlannerUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		41EFB6D727233D2800795AC5 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
 		41EFB6D927233E2700795AC5 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		85EFC2EF105E4EAD106C05B3 /* Pods-PeriscopeMediaPlanner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PeriscopeMediaPlanner.debug.xcconfig"; path = "Target Support Files/Pods-PeriscopeMediaPlanner/Pods-PeriscopeMediaPlanner.debug.xcconfig"; sourceTree = "<group>"; };
+		98CD7594C51ADB61F13EABBF /* Pods-PeriscopeMediaPlannerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PeriscopeMediaPlannerTests.release.xcconfig"; path = "Target Support Files/Pods-PeriscopeMediaPlannerTests/Pods-PeriscopeMediaPlannerTests.release.xcconfig"; sourceTree = "<group>"; };
+		9FD9F3B300208903D6576B30 /* Pods-PeriscopeMediaPlannerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PeriscopeMediaPlannerTests.debug.xcconfig"; path = "Target Support Files/Pods-PeriscopeMediaPlannerTests/Pods-PeriscopeMediaPlannerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B10C0F34101FA125121F3E93 /* Pods_PeriscopeMediaPlannerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PeriscopeMediaPlannerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAD1A1A14360E2A6B96729B0 /* Pods_PeriscopeMediaPlanner_PeriscopeMediaPlannerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PeriscopeMediaPlanner_PeriscopeMediaPlannerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F30CD5C4688FA0489EF5205E /* Pods_PeriscopeMediaPlanner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PeriscopeMediaPlanner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA32118D36FEF4A9E0C3695C /* Pods-PeriscopeMediaPlanner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PeriscopeMediaPlanner.release.xcconfig"; path = "Target Support Files/Pods-PeriscopeMediaPlanner/Pods-PeriscopeMediaPlanner.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				716A76007D8B4C89E10BA9FE /* Pods_PeriscopeMediaPlanner.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A21726085EE3825185CE1F0 /* Pods_PeriscopeMediaPlannerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,12 +95,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D39C50CC6126439EC8736A68 /* Pods_PeriscopeMediaPlanner_PeriscopeMediaPlannerUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		07AB363B907B9031797151E9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F30CD5C4688FA0489EF5205E /* Pods_PeriscopeMediaPlanner.framework */,
+				BAD1A1A14360E2A6B96729B0 /* Pods_PeriscopeMediaPlanner_PeriscopeMediaPlannerUITests.framework */,
+				B10C0F34101FA125121F3E93 /* Pods_PeriscopeMediaPlannerTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		41EFB69A27232D0D00795AC5 = {
 			isa = PBXGroup;
 			children = (
@@ -86,8 +119,12 @@
 				41EFB6BB27232D0F00795AC5 /* PeriscopeMediaPlannerTests */,
 				41EFB6C527232D0F00795AC5 /* PeriscopeMediaPlannerUITests */,
 				41EFB6A427232D0D00795AC5 /* Products */,
+				AC63DD477D105063F18873A6 /* Pods */,
+				07AB363B907B9031797151E9 /* Frameworks */,
 			);
+			indentWidth = 2;
 			sourceTree = "<group>";
+			tabWidth = 2;
 		};
 		41EFB6A427232D0D00795AC5 /* Products */ = {
 			isa = PBXGroup;
@@ -102,6 +139,8 @@
 		41EFB6A527232D0D00795AC5 /* PeriscopeMediaPlanner */ = {
 			isa = PBXGroup;
 			children = (
+				41E0C177272D7EFA0008B407 /* GoogleService-Info.plist */,
+				4142A59B272C1B9900DD2627 /* Info.plist */,
 				41EFB6D627233D0B00795AC5 /* Model */,
 				41EFB6D527233D0300795AC5 /* View */,
 				41EFB6A627232D0D00795AC5 /* PeriscopeMediaPlannerApp.swift */,
@@ -110,6 +149,7 @@
 				41EFB6AF27232D0E00795AC5 /* Persistence.swift */,
 				41EFB6B127232D0F00795AC5 /* PeriscopeMediaPlanner.xcdatamodeld */,
 				41EFB6AC27232D0E00795AC5 /* Preview Content */,
+				41566C91272D9D1E00FA8CD5 /* AppDelegate.swift */,
 			);
 			path = PeriscopeMediaPlanner;
 			sourceTree = "<group>";
@@ -144,6 +184,7 @@
 			children = (
 				41EFB6D727233D2800795AC5 /* SplashScreenView.swift */,
 				41EFB6D927233E2700795AC5 /* HomeView.swift */,
+				41685358272DE9C000BE0F22 /* TaskView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -151,8 +192,22 @@
 		41EFB6D627233D0B00795AC5 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				4168535A272DFD1F00BE0F22 /* TaskModel.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		AC63DD477D105063F18873A6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				85EFC2EF105E4EAD106C05B3 /* Pods-PeriscopeMediaPlanner.debug.xcconfig */,
+				FA32118D36FEF4A9E0C3695C /* Pods-PeriscopeMediaPlanner.release.xcconfig */,
+				1CADCBFF5510F741AB1C0892 /* Pods-PeriscopeMediaPlanner-PeriscopeMediaPlannerUITests.debug.xcconfig */,
+				2D37E0E69B8C299B01D3197D /* Pods-PeriscopeMediaPlanner-PeriscopeMediaPlannerUITests.release.xcconfig */,
+				9FD9F3B300208903D6576B30 /* Pods-PeriscopeMediaPlannerTests.debug.xcconfig */,
+				98CD7594C51ADB61F13EABBF /* Pods-PeriscopeMediaPlannerTests.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,9 +217,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 41EFB6CC27232D0F00795AC5 /* Build configuration list for PBXNativeTarget "PeriscopeMediaPlanner" */;
 			buildPhases = (
+				018209B778B544DED74BC49F /* [CP] Check Pods Manifest.lock */,
 				41EFB69F27232D0D00795AC5 /* Sources */,
 				41EFB6A027232D0D00795AC5 /* Frameworks */,
 				41EFB6A127232D0D00795AC5 /* Resources */,
+				FD232216AF6781C54AFB4C13 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -179,6 +236,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 41EFB6CF27232D0F00795AC5 /* Build configuration list for PBXNativeTarget "PeriscopeMediaPlannerTests" */;
 			buildPhases = (
+				FDB7651E4F6C89B2D29FE365 /* [CP] Check Pods Manifest.lock */,
 				41EFB6B427232D0F00795AC5 /* Sources */,
 				41EFB6B527232D0F00795AC5 /* Frameworks */,
 				41EFB6B627232D0F00795AC5 /* Resources */,
@@ -197,9 +255,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 41EFB6D227232D0F00795AC5 /* Build configuration list for PBXNativeTarget "PeriscopeMediaPlannerUITests" */;
 			buildPhases = (
+				0231EFC30F19E5827F85D6B8 /* [CP] Check Pods Manifest.lock */,
 				41EFB6BE27232D0F00795AC5 /* Sources */,
 				41EFB6BF27232D0F00795AC5 /* Frameworks */,
 				41EFB6C027232D0F00795AC5 /* Resources */,
+				A783CBBFBCF9D95D160AD7DC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -280,6 +340,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		018209B778B544DED74BC49F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PeriscopeMediaPlanner-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0231EFC30F19E5827F85D6B8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PeriscopeMediaPlanner-PeriscopeMediaPlannerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A783CBBFBCF9D95D160AD7DC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PeriscopeMediaPlanner-PeriscopeMediaPlannerUITests/Pods-PeriscopeMediaPlanner-PeriscopeMediaPlannerUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PeriscopeMediaPlanner-PeriscopeMediaPlannerUITests/Pods-PeriscopeMediaPlanner-PeriscopeMediaPlannerUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PeriscopeMediaPlanner-PeriscopeMediaPlannerUITests/Pods-PeriscopeMediaPlanner-PeriscopeMediaPlannerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD232216AF6781C54AFB4C13 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PeriscopeMediaPlanner/Pods-PeriscopeMediaPlanner-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PeriscopeMediaPlanner/Pods-PeriscopeMediaPlanner-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PeriscopeMediaPlanner/Pods-PeriscopeMediaPlanner-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FDB7651E4F6C89B2D29FE365 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PeriscopeMediaPlannerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		41EFB69F27232D0D00795AC5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -288,9 +451,12 @@
 				41EFB6B327232D0F00795AC5 /* PeriscopeMediaPlanner.xcdatamodeld in Sources */,
 				41EFB6B027232D0E00795AC5 /* Persistence.swift in Sources */,
 				41EFB6D827233D2800795AC5 /* SplashScreenView.swift in Sources */,
+				4168535B272DFD1F00BE0F22 /* TaskModel.swift in Sources */,
+				41566C92272D9D1E00FA8CD5 /* AppDelegate.swift in Sources */,
 				41EFB6DA27233E2700795AC5 /* HomeView.swift in Sources */,
 				41EFB6A927232D0D00795AC5 /* ContentView.swift in Sources */,
 				41EFB6A727232D0D00795AC5 /* PeriscopeMediaPlannerApp.swift in Sources */,
+				41685359272DE9C000BE0F22 /* TaskView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,7 +464,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				41EFB6BD27232D0F00795AC5 /* PeriscopeMediaPlannerTests.swift in Sources */,
+				415BD821272B4EBB0039AC39 /* PeriscopeMediaPlannerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -445,6 +611,7 @@
 		};
 		41EFB6CD27232D0F00795AC5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85EFC2EF105E4EAD106C05B3 /* Pods-PeriscopeMediaPlanner.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -454,9 +621,12 @@
 				DEVELOPMENT_TEAM = AW76RA3653;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PeriscopeMediaPlanner/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
@@ -469,12 +639,13 @@
 				PRODUCT_NAME = PeriscopeMediaPlanner;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		41EFB6CE27232D0F00795AC5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA32118D36FEF4A9E0C3695C /* Pods-PeriscopeMediaPlanner.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -484,9 +655,12 @@
 				DEVELOPMENT_TEAM = AW76RA3653;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PeriscopeMediaPlanner/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
@@ -499,12 +673,13 @@
 				PRODUCT_NAME = PeriscopeMediaPlanner;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		41EFB6D027232D0F00795AC5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FD9F3B300208903D6576B30 /* Pods-PeriscopeMediaPlannerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -530,6 +705,7 @@
 		};
 		41EFB6D127232D0F00795AC5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98CD7594C51ADB61F13EABBF /* Pods-PeriscopeMediaPlannerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -555,6 +731,7 @@
 		};
 		41EFB6D327232D0F00795AC5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CADCBFF5510F741AB1C0892 /* Pods-PeriscopeMediaPlanner-PeriscopeMediaPlannerUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -578,6 +755,7 @@
 		};
 		41EFB6D427232D0F00795AC5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D37E0E69B8C299B01D3197D /* Pods-PeriscopeMediaPlanner-PeriscopeMediaPlannerUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
